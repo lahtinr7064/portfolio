@@ -15,7 +15,8 @@ header>nav{
     align-items: center;
     padding: 2rem 4rem 2rem 4rem;
     justify-content: space-between;
-}
+}   
+
 header>img{
     display: flex;
     justify-content: center;
@@ -43,10 +44,26 @@ main{
     font-family: 'Courier New', Courier, monospace;
     color: black;
     background-color: #f3f6af;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
-main>img{
-    display: inline;
+header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    width: 35%;
+    margin: auto;
+}
+main>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3,h4{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
